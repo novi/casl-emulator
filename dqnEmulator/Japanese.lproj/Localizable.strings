@@ -1,0 +1,20 @@
+
+"New document" = "新規書類";
+
+"No Error" = "エラーなし";
+"Parse error" = "構文エラー";
+"Label already exist" = "そのラベルはすでに存在します";
+"Label not found" = "そのラベルは定義されていません";
+"Invalid operand" = "不正なオペランド";
+"Invalid label" = "不正なラベル";
+"No END" = "END 命令がありません";
+"No START" = "START 命令がありません";
+"Invalid constant" = "不正な定数";
+
+"Assemble error." = "アセンブルエラー";
+"Assemble finished." = "アセンブルは正常に終了しました.";
+"Program reached breakpoint." = "ブレークポイントで停止しました.";
+"Operation step exceed specify count. Program has halted." = "命令実行回数が所定の回数に達しました. プログラムを一時停止します.";
+"Program has exited." = "正常に終了しました.";
+"Execute exception occured. Error:%d" = "例外エラーが発生しました. (%d)";
+"Emulator accessed invalid memory area." = "エミュレータは不正なメモリ領域にアクセスしようとしました.";

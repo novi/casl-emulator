@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'dqnEmulater' target in the 'dqnEmulator' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

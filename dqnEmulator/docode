@@ -1,0 +1,5 @@
+#!/bin/sh
+for f in *
+do
+	echo "¥InputSource{language=C,caption=$f,label=c:$f}{`pwd`/$f}"
+done

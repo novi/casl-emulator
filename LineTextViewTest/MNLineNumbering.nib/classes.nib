@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {jumpButtonClicked = id; }; 
+            CLASS = MNLineNumberingRulerView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {dialogueView = id; radioButtons = id; textField = id; }; 
+            SUPERCLASS = NSRulerView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

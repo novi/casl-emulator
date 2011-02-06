@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD582C0DA1D0D100B32029 /* DEDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* DEDocument.xib */; };
+		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		521CF8290F062C2E007A98A1 /* DEMemoryWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521CF8280F062C2E007A98A1 /* DEMemoryWindowController.m */; };
+		521CF8510F062F3E007A98A1 /* DEMemory.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521CF8500F062F3E007A98A1 /* DEMemory.xib */; };
+		523C0F140F3881B10014A229 /* casl.icns in Resources */ = {isa = PBXBuildFile; fileRef = 523C0F130F3881B10014A229 /* casl.icns */; };
+		5244433F0F065E9500C29BA3 /* DERegister.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5244433E0F065E9500C29BA3 /* DERegister.xib */; };
+		524443420F065EB400C29BA3 /* DERegisterWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 524443410F065EB400C29BA3 /* DERegisterWindowController.m */; };
+		524443EE0F06730000C29BA3 /* r-reg.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 524443E90F06730000C29BA3 /* r-reg.tiff */; };
+		524443EF0F06730000C29BA3 /* build.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 524443EA0F06730000C29BA3 /* build.tiff */; };
+		524443F00F06730000C29BA3 /* Run.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 524443EB0F06730000C29BA3 /* Run.tiff */; };
+		524443F10F06730000C29BA3 /* step.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 524443EC0F06730000C29BA3 /* step.tiff */; };
+		524443F20F06730000C29BA3 /* r-mem.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 524443ED0F06730000C29BA3 /* r-mem.tiff */; };
+		524DF4EB0F0A158000E799EF /* CMTEmulator.c in Sources */ = {isa = PBXBuildFile; fileRef = 524DF4E60F0A158000E799EF /* CMTEmulator.c */; };
+		524DF4EC0F0A158000E799EF /* CMTEmuSub.c in Sources */ = {isa = PBXBuildFile; fileRef = 524DF4E70F0A158000E799EF /* CMTEmuSub.c */; };
+		52A130850F16F65300864551 /* DELineTextView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52E6409D0F09075D00F7087C /* DELineTextView.bundle */; };
+		52A130A70F16F84400864551 /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = 52A130A60F16F84400864551 /* TODO */; };
+		52A8B00B0F53F1EE00F63211 /* casldocicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 52A8B00A0F53F1EE00F63211 /* casldocicon.icns */; };
+		52A8B0150F53F29E00F63211 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52A8B0140F53F29E00F63211 /* Localizable.strings */; };
+		52AA294112F5CFCE00860069 /* CSAssembler.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AA293F12F5CFCE00860069 /* CSAssembler.m */; };
+		52E640510F09051D00F7087C /* DEApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E640500F09051D00F7087C /* DEApp.m */; };
+		52E640E80F0909CD00F7087C /* MNLineNumberingRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E6408F0F09074600F7087C /* MNLineNumberingRulerView.m */; };
+		52E640E90F0909CE00F7087C /* MNLineNumberingTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E6408D0F09074600F7087C /* MNLineNumberingTextStorage.m */; };
+		52E640EA0F0909CE00F7087C /* MNLineNumberingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52E640910F09074600F7087C /* MNLineNumberingTextView.m */; };
+		52E641030F090A2D00F7087C /* error-marker.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 52E641000F090A2D00F7087C /* error-marker.tiff */; };
+		52E641040F090A2D00F7087C /* marker.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 52E641010F090A2D00F7087C /* marker.tiff */; };
+		52E641050F090A2D00F7087C /* marker-step.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 52E641020F090A2D00F7087C /* marker-step.tiff */; };
+		52ED667A0F1341FC0066298B /* DEMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A2F6B90F0604440001AB91 /* DEMainWindowController.m */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC310486D014006FF6A4 /* DEDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* DEDocument.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52E640BE0F0907D900F7087C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52E6409C0F09075D00F7087C;
+			remoteInfo = DELineTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58290DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/DEDocument.xib; sourceTree = "<group>"; };
+		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2A37F4ACFDCFA73011CA2CEA /* DEDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* DEDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32DBCF750370BD2300C91783 /* dqnEmulator_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dqnEmulator_Prefix.pch; sourceTree = "<group>"; };
+		521CF8270F062C2E007A98A1 /* DEMemoryWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMemoryWindowController.h; sourceTree = "<group>"; };
+		521CF8280F062C2E007A98A1 /* DEMemoryWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMemoryWindowController.m; sourceTree = "<group>"; };
+		521CF84E0F062F3A007A98A1 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/DEMemory.xib; sourceTree = "<group>"; };
+		523C0F130F3881B10014A229 /* casl.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = casl.icns; sourceTree = "<group>"; };
+		5244433C0F065E8B00C29BA3 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/DERegister.xib; sourceTree = "<group>"; };
+		524443400F065EB400C29BA3 /* DERegisterWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DERegisterWindowController.h; sourceTree = "<group>"; };
+		524443410F065EB400C29BA3 /* DERegisterWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DERegisterWindowController.m; sourceTree = "<group>"; };
+		524443E90F06730000C29BA3 /* r-reg.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "r-reg.tiff"; path = "resources/r-reg.tiff"; sourceTree = "<group>"; };
+		524443EA0F06730000C29BA3 /* build.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = build.tiff; path = resources/build.tiff; sourceTree = "<group>"; };
+		524443EB0F06730000C29BA3 /* Run.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Run.tiff; path = resources/Run.tiff; sourceTree = "<group>"; };
+		524443EC0F06730000C29BA3 /* step.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = step.tiff; path = resources/step.tiff; sourceTree = "<group>"; };
+		524443ED0F06730000C29BA3 /* r-mem.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "r-mem.tiff"; path = "resources/r-mem.tiff"; sourceTree = "<group>"; };
+		524DF4E30F0A158000E799EF /* CMTGeneral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMTGeneral.h; path = emu/CMTGeneral.h; sourceTree = "<group>"; };
+		524DF4E50F0A158000E799EF /* CMTEmuSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMTEmuSub.h; path = emu/CMTEmuSub.h; sourceTree = "<group>"; };
+		524DF4E60F0A158000E799EF /* CMTEmulator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CMTEmulator.c; path = emu/CMTEmulator.c; sourceTree = "<group>"; };
+		524DF4E70F0A158000E799EF /* CMTEmuSub.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = CMTEmuSub.c; path = emu/CMTEmuSub.c; sourceTree = "<group>"; };
+		524DF4E90F0A158000E799EF /* CMTEmulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CMTEmulator.h; path = emu/CMTEmulator.h; sourceTree = "<group>"; };
+		52A130A60F16F84400864551 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		52A2F6B80F0604440001AB91 /* DEMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMainWindowController.h; sourceTree = "<group>"; };
+		52A2F6B90F0604440001AB91 /* DEMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMainWindowController.m; sourceTree = "<group>"; };
+		52A8B00A0F53F1EE00F63211 /* casldocicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = casldocicon.icns; sourceTree = "<group>"; };
+		52A8B00D0F53F20E00F63211 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52A8B0120F53F29800F63211 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		52A8B0160F53F2AA00F63211 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		52A8B01A0F53F30500F63211 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = Japanese.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		52A8B0210F53F4F500F63211 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = Japanese.lproj/DEDocument.xib; sourceTree = "<group>"; };
+		52AA293E12F5CFCE00860069 /* CSAssembler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAssembler.h; sourceTree = "<group>"; };
+		52AA293F12F5CFCE00860069 /* CSAssembler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAssembler.m; sourceTree = "<group>"; };
+		52AA294012F5CFCE00860069 /* CSInstructionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSInstructionList.h; sourceTree = "<group>"; };
+		52E6404F0F09051D00F7087C /* DEApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEApp.h; sourceTree = "<group>"; };
+		52E640500F09051D00F7087C /* DEApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEApp.m; sourceTree = "<group>"; };
+		52E6408C0F09074600F7087C /* MNLineNumberingTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNLineNumberingTextStorage.h; path = ../LineTextViewTest/MNLineNumberingTextStorage.h; sourceTree = SOURCE_ROOT; };
+		52E6408D0F09074600F7087C /* MNLineNumberingTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNLineNumberingTextStorage.m; path = ../LineTextViewTest/MNLineNumberingTextStorage.m; sourceTree = SOURCE_ROOT; };
+		52E6408E0F09074600F7087C /* MNLineNumberingRulerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNLineNumberingRulerView.h; path = ../LineTextViewTest/MNLineNumberingRulerView.h; sourceTree = SOURCE_ROOT; };
+		52E6408F0F09074600F7087C /* MNLineNumberingRulerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNLineNumberingRulerView.m; path = ../LineTextViewTest/MNLineNumberingRulerView.m; sourceTree = SOURCE_ROOT; };
+		52E640900F09074600F7087C /* MNLineNumberingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MNLineNumberingTextView.h; path = ../LineTextViewTest/MNLineNumberingTextView.h; sourceTree = SOURCE_ROOT; };
+		52E640910F09074600F7087C /* MNLineNumberingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MNLineNumberingTextView.m; path = ../LineTextViewTest/MNLineNumberingTextView.m; sourceTree = SOURCE_ROOT; };
+		52E6409D0F09075D00F7087C /* DELineTextView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DELineTextView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E6409E0F09075D00F7087C /* DELineTextView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DELineTextView-Info.plist"; sourceTree = "<group>"; };
+		52E641000F090A2D00F7087C /* error-marker.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "error-marker.tiff"; path = "../LineTextViewTest/error-marker.tiff"; sourceTree = SOURCE_ROOT; };
+		52E641010F090A2D00F7087C /* marker.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = marker.tiff; path = ../LineTextViewTest/marker.tiff; sourceTree = SOURCE_ROOT; };
+		52E641020F090A2D00F7087C /* marker-step.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = "marker-step.tiff"; path = "../LineTextViewTest/marker-step.tiff"; sourceTree = SOURCE_ROOT; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* dqnEmulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dqnEmulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52E6409B0F09075D00F7087C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* dqnEmulator.app */,
+				52E6409D0F09075D00F7087C /* DELineTextView.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* dqnEmulater */ = {
+			isa = PBXGroup;
+			children = (
+				524DF4D00F0A156F00E799EF /* Emu */,
+				52E640770F09071F00F7087C /* Plugins */,
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				521CF78E0F060B54007A98A1 /* CASL Assembler */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+				52A130A60F16F84400864551 /* TODO */,
+			);
+			name = dqnEmulater;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4AEFDCFA73011CA2CEA /* DEDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* DEDocument.m */,
+				52A2F6B80F0604440001AB91 /* DEMainWindowController.h */,
+				52A2F6B90F0604440001AB91 /* DEMainWindowController.m */,
+				521CF8270F062C2E007A98A1 /* DEMemoryWindowController.h */,
+				521CF8280F062C2E007A98A1 /* DEMemoryWindowController.m */,
+				524443400F065EB400C29BA3 /* DERegisterWindowController.h */,
+				524443410F065EB400C29BA3 /* DERegisterWindowController.m */,
+				52E6404F0F09051D00F7087C /* DEApp.h */,
+				52E640500F09051D00F7087C /* DEApp.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF750370BD2300C91783 /* dqnEmulator_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				52A8B00A0F53F1EE00F63211 /* casldocicon.icns */,
+				523C0F130F3881B10014A229 /* casl.icns */,
+				524443F40F06730A00C29BA3 /* Toolbar icons */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				1DDD58280DA1D0D100B32029 /* DEDocument.xib */,
+				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
+				521CF8500F062F3E007A98A1 /* DEMemory.xib */,
+				5244433E0F065E9500C29BA3 /* DERegister.xib */,
+				52A8B0140F53F29E00F63211 /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		521CF78E0F060B54007A98A1 /* CASL Assembler */ = {
+			isa = PBXGroup;
+			children = (
+				52AA293E12F5CFCE00860069 /* CSAssembler.h */,
+				52AA293F12F5CFCE00860069 /* CSAssembler.m */,
+				52AA294012F5CFCE00860069 /* CSInstructionList.h */,
+			);
+			name = "CASL Assembler";
+			sourceTree = "<group>";
+		};
+		524443F40F06730A00C29BA3 /* Toolbar icons */ = {
+			isa = PBXGroup;
+			children = (
+				524443E90F06730000C29BA3 /* r-reg.tiff */,
+				524443EA0F06730000C29BA3 /* build.tiff */,
+				524443EB0F06730000C29BA3 /* Run.tiff */,
+				524443EC0F06730000C29BA3 /* step.tiff */,
+				524443ED0F06730000C29BA3 /* r-mem.tiff */,
+			);
+			name = "Toolbar icons";
+			sourceTree = "<group>";
+		};
+		524DF4D00F0A156F00E799EF /* Emu */ = {
+			isa = PBXGroup;
+			children = (
+				524DF4E30F0A158000E799EF /* CMTGeneral.h */,
+				524DF4E50F0A158000E799EF /* CMTEmuSub.h */,
+				524DF4E70F0A158000E799EF /* CMTEmuSub.c */,
+				524DF4E60F0A158000E799EF /* CMTEmulator.c */,
+				524DF4E90F0A158000E799EF /* CMTEmulator.h */,
+			);
+			name = Emu;
+			sourceTree = "<group>";
+		};
+		52E640770F09071F00F7087C /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				52E640780F09072B00F7087C /* LineTextView */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+		52E640780F09072B00F7087C /* LineTextView */ = {
+			isa = PBXGroup;
+			children = (
+				52E640FF0F090A1900F7087C /* MarkerImages */,
+				52E6409E0F09075D00F7087C /* DELineTextView-Info.plist */,
+				52E6408C0F09074600F7087C /* MNLineNumberingTextStorage.h */,
+				52E6408D0F09074600F7087C /* MNLineNumberingTextStorage.m */,
+				52E6408E0F09074600F7087C /* MNLineNumberingRulerView.h */,
+				52E6408F0F09074600F7087C /* MNLineNumberingRulerView.m */,
+				52E640900F09074600F7087C /* MNLineNumberingTextView.h */,
+				52E640910F09074600F7087C /* MNLineNumberingTextView.m */,
+			);
+			name = LineTextView;
+			sourceTree = "<group>";
+		};
+		52E640FF0F090A1900F7087C /* MarkerImages */ = {
+			isa = PBXGroup;
+			children = (
+				52E641000F090A2D00F7087C /* error-marker.tiff */,
+				52E641010F090A2D00F7087C /* marker.tiff */,
+				52E641020F090A2D00F7087C /* marker-step.tiff */,
+			);
+			name = MarkerImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52E6409C0F09075D00F7087C /* DELineTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E640A10F09076000F7087C /* Build configuration list for PBXNativeTarget "DELineTextView" */;
+			buildPhases = (
+				52E640990F09075D00F7087C /* Resources */,
+				52E6409A0F09075D00F7087C /* Sources */,
+				52E6409B0F09075D00F7087C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DELineTextView;
+			productName = DELineTextView;
+			productReference = 52E6409D0F09075D00F7087C /* DELineTextView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8D15AC270486D014006FF6A4 /* dqnEmulater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "dqnEmulater" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52E640BF0F0907D900F7087C /* PBXTargetDependency */,
+			);
+			name = dqnEmulater;
+			productInstallPath = "$(HOME)/Applications";
+			productName = dqnEmulater;
+			productReference = 8D15AC370486D014006FF6A4 /* dqnEmulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "dqnEmulator" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* dqnEmulater */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* dqnEmulater */,
+				52E6409C0F09075D00F7087C /* DELineTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52E640990F09075D00F7087C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E641030F090A2D00F7087C /* error-marker.tiff in Resources */,
+				52E641040F090A2D00F7087C /* marker.tiff in Resources */,
+				52E641050F090A2D00F7087C /* marker-step.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				1DDD582C0DA1D0D100B32029 /* DEDocument.xib in Resources */,
+				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
+				521CF8510F062F3E007A98A1 /* DEMemory.xib in Resources */,
+				5244433F0F065E9500C29BA3 /* DERegister.xib in Resources */,
+				524443EE0F06730000C29BA3 /* r-reg.tiff in Resources */,
+				524443EF0F06730000C29BA3 /* build.tiff in Resources */,
+				524443F00F06730000C29BA3 /* Run.tiff in Resources */,
+				524443F10F06730000C29BA3 /* step.tiff in Resources */,
+				524443F20F06730000C29BA3 /* r-mem.tiff in Resources */,
+				52A130850F16F65300864551 /* DELineTextView.bundle in Resources */,
+				52A130A70F16F84400864551 /* TODO in Resources */,
+				523C0F140F3881B10014A229 /* casl.icns in Resources */,
+				52A8B00B0F53F1EE00F63211 /* casldocicon.icns in Resources */,
+				52A8B0150F53F29E00F63211 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52E6409A0F09075D00F7087C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E640E80F0909CD00F7087C /* MNLineNumberingRulerView.m in Sources */,
+				52E640E90F0909CE00F7087C /* MNLineNumberingTextStorage.m in Sources */,
+				52E640EA0F0909CE00F7087C /* MNLineNumberingTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC310486D014006FF6A4 /* DEDocument.m in Sources */,
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				521CF8290F062C2E007A98A1 /* DEMemoryWindowController.m in Sources */,
+				524443420F065EB400C29BA3 /* DERegisterWindowController.m in Sources */,
+				52E640510F09051D00F7087C /* DEApp.m in Sources */,
+				524DF4EB0F0A158000E799EF /* CMTEmulator.c in Sources */,
+				524DF4EC0F0A158000E799EF /* CMTEmuSub.c in Sources */,
+				52ED667A0F1341FC0066298B /* DEMainWindowController.m in Sources */,
+				52AA294112F5CFCE00860069 /* CSAssembler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52E640BF0F0907D900F7087C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52E6409C0F09075D00F7087C /* DELineTextView */;
+			targetProxy = 52E640BE0F0907D900F7087C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+				52A8B00D0F53F20E00F63211 /* Japanese */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58280DA1D0D100B32029 /* DEDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58290DA1D0D100B32029 /* English */,
+				52A8B0210F53F4F500F63211 /* Japanese */,
+			);
+			name = DEDocument.xib;
+			sourceTree = "<group>";
+		};
+		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD582B0DA1D0D100B32029 /* English */,
+				52A8B01A0F53F30500F63211 /* Japanese */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		521CF8500F062F3E007A98A1 /* DEMemory.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521CF84E0F062F3A007A98A1 /* English */,
+			);
+			name = DEMemory.xib;
+			sourceTree = "<group>";
+		};
+		5244433E0F065E9500C29BA3 /* DERegister.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5244433C0F065E8B00C29BA3 /* English */,
+			);
+			name = DERegister.xib;
+			sourceTree = "<group>";
+		};
+		52A8B0140F53F29E00F63211 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52A8B0120F53F29800F63211 /* English */,
+				52A8B0160F53F2AA00F63211 /* Japanese */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52E6409F0F09075F00F7087C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "DELineTextView-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = DELineTextView;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		52E640A00F09075F00F7087C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "DELineTextView-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = DELineTextView;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = dqnEmulator_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = dqnEmulator;
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = dqnEmulator_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = dqnEmulator;
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52E640A10F09076000F7087C /* Build configuration list for PBXNativeTarget "DELineTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E6409F0F09075F00F7087C /* Debug */,
+				52E640A00F09075F00F7087C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "dqnEmulater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "dqnEmulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
