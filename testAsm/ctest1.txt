@@ -1,0 +1,17 @@
+		START	
+		
+		LEA 	GR0,-1;comment lea gr0
+		LEA 	gr1,1,0
+		
+		
+		
+LOOP2	ST 		GR0,	DATA1,	GR0
+    
+		LEA		GR1,	1,		GR1
+		LEA 	GR0,	-10,	GR1
+		JNZ 	loop
+		EXIT
+DATA0	DC 		-5
+ds1		DS		14
+LOOP2	LEA 	GR1,	1,		GR1
+			END

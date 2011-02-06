@@ -1,0 +1,15 @@
+	start	hajime
+data	dc	#FACE
+const1	dc	1
+hajime	ld	gr1, data
+	lea	gr3, 0
+	lea	gr2, 0, gr1
+loop	and	gr1, const1
+	jnz	inc
+next	srl	gr2, 1
+	lea	gr1, 0, gr2
+	jnz	loop
+	exit
+inc	lea	gr3, 1, gr3
+	jmp	next
+	end

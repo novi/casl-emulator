@@ -1,0 +1,9 @@
+			START	
+TOBE		LD	GR1,x
+			LEA	GR1,1,GR1
+			ST		GR1,x
+			ADD	GR1,y
+			JMI	TOBE
+			EXIT
+			DC	0
+			DC	-3

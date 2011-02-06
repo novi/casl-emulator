@@ -1,0 +1,16 @@
+ start
+lea gr1,0
+lea gr3,0,gr1
+lea gr1,1
+lea gr2,0,gr1
+st gr3,wrk
+loop add gr1,wrk
+ st gr2,wrk
+ lea gr2,0,gr1
+ cpa gr1,c10000
+ jmi loop
+ exit
+ wrk ds 1
+ c10000 dc 10000
+ end
+ 

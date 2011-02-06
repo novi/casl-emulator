@@ -1,0 +1,16 @@
+			START
+			LEA GR2,2
+			LEA GR3,2
+LOOP	LEA GR2,1,GR2
+			LEA GR3,-1,GR3
+			LD   GR0,DATA,GR3
+			LD   GR1,DATA,GR2
+			ST   GR0,DATA,GR2
+			ST   GR1,DATA,GR3
+			JNZ  LOOP
+			EXIT
+DATA	DC	1
+			DC	2
+			DC	3
+			DC	4
+			DC	5

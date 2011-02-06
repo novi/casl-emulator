@@ -1,0 +1,22 @@
+	start	begin
+a	dc	#0f44
+	dc	#0666
+	dc	#fffa
+	dc	#1835
+	dc	#0123
+begin	ld	gr0, a
+	st	gr0, m
+	lea	gr1, -4
+	lea	gr3, 0
+q	lea	gr3, 1, gr3
+	ld	gr0, m
+	cpa	gr0, a, gr3
+	jpz	p
+	ld	gr0, a, gr3
+	st	gr0, m
+p	lea	gr1, 1, gr1
+	jnz	q
+	ld	gr2, m
+	exit
+m	ds	1
+	end

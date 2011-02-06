@@ -1,0 +1,26 @@
+	start	begin
+begin	lea	gr3,0		;答えを入れる先のアドレス
+	lea	gr0,data	;データの取り出し元アドレス
+	ld	gr1,data	;2は素数
+	jmi	prime           ;無条件に値を格納	
+loop1	ld	gr2,1,gr0	;素数かみる値
+loop2	sub	gr2,0,gr1	;引いていって０にならなかったら素数
+	jze	loop1		;素数じゃないなら次
+	jmi	prime           ;割り切れないから素数
+	jmp	loop2
+	st	gr2,0,gr0
+	jmp 	loop1
+prime	add	gr3,1,gr3       ;++
+	st	gr2,ans,gr3     ;素数だったらdsに値を入れる
+	sub	gr2,9		;最後の数だったら	
+	jnz	loop1
+	exit
+data	dc	2
+	dc	3
+	dc	4
+	dc	5
+	dc	6
+	dc	7
+	dc	8
+	dc	9
+ans	ds	5
